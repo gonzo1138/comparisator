@@ -32,12 +32,13 @@ public class Comperator {
                 new Bier(3.20, "Obersdorfer Weizen", 4.00, "Weizen")
         );
 
-        for(Getraenke g:getraenkeliste) System.out.print(g.name + " ");
+        for(Getraenke g:getraenkeliste) System.out.print(g.name + "   ");
         System.out.println();
 
+        System.out.println("Sortiert nach Preis:");
         Collections.sort(getraenkeliste);
 
-        for(Getraenke g:getraenkeliste) System.out.print(g.name + " ");
+        for(Getraenke g:getraenkeliste) System.out.print(g.name + "   ");
 
     }
 }
